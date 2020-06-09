@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/firstView/main",
+    "pages/search/main",
+    "pages/comment/main",
+    "pages/personal/main",
+    "pages/details/main",
+    "pages/index/main"
+  ],
+  "window": {
+    "navigationBarTitleText": "豆瓣影评"
+  },
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#FFC0CB",
+    "backgroundColor": "rgba(0,0,0,0.9)",
+    "list": [
+      {
+        "pagePath":"pages/index/main",
+        "text": "列表",
+        "iconPath": "/static/images/list_no.png",
+        "selectedIconPath": "static/images/list.png"
+      },
+      {
+        "pagePath":"pages/search/main",
+        "text": "搜索",
+        "iconPath": "/static/images/search_no.png",
+        "selectedIconPath": "static/images/search.png"
+      },
+      {
+        "pagePath":"pages/personal/main",
+        "text": "个人",
+        "iconPath": "/static/images/personal_no.png",
+        "selectedIconPath": "static/images/personal.png"
+      }
+    ]
+  }
+
+}
