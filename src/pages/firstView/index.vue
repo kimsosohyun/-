@@ -2,16 +2,16 @@
   <div>
     <Swiper :indicator-dots="index!==3" @change="change" indicator-color="purple" indicator-active-color="pink">
       <swiper-item>
-        <img  src="../../../static/images/22.jpg" alt="">
+        <img  src="../../../static/images/1.jpg" alt="">
       </swiper-item>
       <swiper-item>
-        <img src="../../../static/images/11.jpg" alt="">
+        <img src="../../../static/images/1.jpg" alt="">
       </swiper-item>
       <swiper-item>
-        <img src="../../../static/images/33.jpg" alt="">
+        <img src="../../../static/images/1.jpg" alt="">
       </swiper-item>
       <swiper-item>
-        <img src="../../../static/images/44.jpg" alt="">
+        <img src="../../../static/images/1.jpg" alt="">
       </swiper-item>
     </Swiper>
 
